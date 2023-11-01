@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Wed Mar  1 19:40:47 2023
+[*]
+[dumpfile] "/home/meszlenyilorant/Sync/LorantLaptop/tmvp/alu_cell/computer.vcd"
+[dumpfile_mtime] "Wed Mar  1 19:40:17 2023"
+[dumpfile_size] 627
+[savefile] "/home/meszlenyilorant/Sync/LorantLaptop/tmvp/alu_cell/gtkwave/pc.gtkw"
+[timestart] 0
+[size] 1278 493
+[pos] 1279 -420
+*-14.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] pc_tb.
+[sst_width] 208
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 106
+@28
+pc_tb.dut.clk
+@22
+pc_tb.dut.counter[5:0]
+@28
+pc_tb.dut.jmp_en
+@22
+pc_tb.dut.jmp_target[5:0]
+pc_tb.dut.program_counter[5:0]
+@29
+pc_tb.dut.rst
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,12 @@
+0000 // nop
+7002 // addi 2
+0000 // nop
+10f1 // loadi 0b0000_1111_0001
+2004 // add r4
+2005 // add r5
+2006 // add r6
+2007 // add r7
+0000 // nop
+4005 // store r5
+0000 // nop
+ffff // hlt

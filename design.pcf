@@ -1,0 +1,37 @@
+# Onboard 25Mhz oscillator
+set_io clk 18
+set_io rst 17
+
+set_io data_out[0] 60
+set_io data_out[1] 61
+set_io data_out[2] 62
+set_io data_out[3] 63
+set_io data_out[4] 64
+set_io data_out[5] 25
+set_io data_out[6] 26
+set_io data_out[7] 10
+set_io data_out[8] 11
+set_io data_out[9] 12
+set_io data_out[10] 31
+set_io data_out[11] 32
+set_io data_out[12] 33
+set_io data_out[13] 20
+set_io data_out[14] 21
+set_io data_out[15] 22
+
+set_io data_in[0] 34
+set_io data_in[1] 70
+set_io data_in[2] 71
+set_io data_in[3] 37
+set_io data_in[4] 38
+set_io data_in[5] 39
+set_io data_in[6] 80
+set_io data_in[7] 41
+set_io data_in[8] 42
+set_io data_in[9] 43
+set_io data_in[10] 44
+set_io data_in[11] 45
+set_io data_in[12] 81
+set_io data_in[13] 82
+set_io data_in[14] 83
+set_io data_in[15] 84

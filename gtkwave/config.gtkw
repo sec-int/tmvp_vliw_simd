@@ -1,0 +1,78 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Tue Jan 10 18:38:24 2023
+[*]
+[dumpfile] "/home/meszlenyilorant/Sync/LorantLaptop/tmvp/verilog/waveform.vcd"
+[dumpfile_mtime] "Tue Jan 10 09:50:47 2023"
+[dumpfile_size] 5956
+[savefile] "/home/meszlenyilorant/Sync/LorantLaptop/tmvp/verilog/gtkwave/config.gtkw"
+[timestart] 0
+[size] 1276 600
+[pos] -1 -1
+*-5.000000 45 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.dut.
+[treeopen] cpu_tb.dut.bypass.
+[sst_width] 208
+[signals_width] 235
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@28
+cpu_tb.dut.clk
+@22
+cpu_tb.dut.controller.current_state[3:0]
+@28
+cpu_tb.dut.core_0.rst
+@200
+-
+-
+-ALU
+@28
+cpu_tb.dut.core_0.op
+@22
+cpu_tb.dut.core_0.a[0:15]
+cpu_tb.dut.core_0.b[0:15]
+cpu_tb.dut.core_0.result[0:15]
+@200
+-
+-Muxers
+@22
+cpu_tb.dut.reg_a_mux[3:0]
+@28
+cpu_tb.dut.reg_b_mux[1:0]
+cpu_tb.dut.result_mux
+@c00022
+cpu_tb.dut.bypass.out[15:0]
+@28
+(0)cpu_tb.dut.bypass.out[15:0]
+(1)cpu_tb.dut.bypass.out[15:0]
+(2)cpu_tb.dut.bypass.out[15:0]
+(3)cpu_tb.dut.bypass.out[15:0]
+(4)cpu_tb.dut.bypass.out[15:0]
+(5)cpu_tb.dut.bypass.out[15:0]
+(6)cpu_tb.dut.bypass.out[15:0]
+(7)cpu_tb.dut.bypass.out[15:0]
+(8)cpu_tb.dut.bypass.out[15:0]
+(9)cpu_tb.dut.bypass.out[15:0]
+(10)cpu_tb.dut.bypass.out[15:0]
+(11)cpu_tb.dut.bypass.out[15:0]
+(12)cpu_tb.dut.bypass.out[15:0]
+(13)cpu_tb.dut.bypass.out[15:0]
+(14)cpu_tb.dut.bypass.out[15:0]
+(15)cpu_tb.dut.bypass.out[15:0]
+@1401200
+-group_end
+@200
+-
+-Cell I/O
+@22
+cpu_tb.dut.out[15:0]
+cpu_tb.dut.t0[15:0]
+cpu_tb.dut.t1[15:0]
+cpu_tb.dut.t2[15:0]
+cpu_tb.dut.t3[15:0]
+cpu_tb.dut.t4[15:0]
+cpu_tb.dut.t5[15:0]
+cpu_tb.dut.t5[15:0]
+[pattern_trace] 1
+[pattern_trace] 0

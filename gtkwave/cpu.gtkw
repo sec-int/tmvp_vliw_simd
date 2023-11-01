@@ -1,0 +1,82 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Wed Mar 22 10:57:09 2023
+[*]
+[dumpfile] "/home/meszlenyilorant/Sync/LorantLaptop/tmvp/vliw_simd_idea/waveform.vcd"
+[dumpfile_mtime] "Wed Mar 22 10:54:11 2023"
+[dumpfile_size] 9885
+[savefile] "/home/meszlenyilorant/Sync/LorantLaptop/tmvp/vliw_simd_idea/gtkwave/cpu.gtkw"
+[timestart] 62
+[size] 1278 1019
+[pos] -1 -1
+*-5.000000 135 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.dut.
+[treeopen] cpu_tb.dut.alu0.
+[sst_width] 208
+[signals_width] 237
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+cpu_tb.dut.decoder0.clk
+cpu_tb.dut.alu0.rst
+@200
+-Program Counter
+@22
+cpu_tb.dut.pc0.counter[15:0]
+@28
+cpu_tb.dut.pc0.halt
+@22
+cpu_tb.dut.pc0.instruction[15:0]
+@200
+-Instruction Decoder
+@2022
+^1 /home/meszlenyilorant/Sync/LorantLaptop/tmvp/vliw_simd_idea/gtkwave/opcodes.txt
+cpu_tb.dut.decoder0.opcode[3:0]
+^2 /home/meszlenyilorant/Sync/LorantLaptop/tmvp/vliw_simd_idea/gtkwave/alu_reg.txt
+cpu_tb.dut.decoder0.reg_addr[11:0]
+@28
+cpu_tb.dut.decoder0.is_immediate
+cpu_tb.dut.decoder0.is_load
+@2022
+^3 /home/meszlenyilorant/Sync/LorantLaptop/tmvp/vliw_simd_idea/gtkwave/alu_op.txt
+cpu_tb.dut.decoder0.alu_op[3:0]
+@28
+cpu_tb.dut.decoder0.is_store
+@200
+-Memory Fetch
+@2022
+^3 /home/meszlenyilorant/Sync/LorantLaptop/tmvp/vliw_simd_idea/gtkwave/alu_op.txt
+cpu_tb.dut.fetch0.opcode_in[3:0]
+^3 /home/meszlenyilorant/Sync/LorantLaptop/tmvp/vliw_simd_idea/gtkwave/alu_op.txt
+cpu_tb.dut.fetch0.opcode_out[3:0]
+@28
+cpu_tb.dut.fetch0.is_load_in
+cpu_tb.dut.fetch0.is_immediate
+@2022
+^2 /home/meszlenyilorant/Sync/LorantLaptop/tmvp/vliw_simd_idea/gtkwave/alu_reg.txt
+cpu_tb.dut.fetch0.addr[11:0]
+@28
+cpu_tb.dut.fetch0.is_store_in
+cpu_tb.dut.fetch0.store_history[1:0]
+@22
+cpu_tb.dut.fetch0.alu_result[15:0]
+cpu_tb.dut.fetch0.\addr_history[0][11:0]
+cpu_tb.dut.fetch0.\addr_history[1][11:0]
+cpu_tb.dut.fetch0.\registers[1][15:0]
+cpu_tb.dut.fetch0.\registers[2][15:0]
+cpu_tb.dut.fetch0.\registers[3][15:0]
+cpu_tb.dut.fetch0.\registers[4][15:0]
+cpu_tb.dut.fetch0.\registers[5][15:0]
+cpu_tb.dut.fetch0.\registers[5][15:0]
+@200
+-ALU
+@29
+cpu_tb.dut.alu0.load
+@22
+cpu_tb.dut.alu0.opcode[3:0]
+cpu_tb.dut.alu0.in_val[15:0]
+cpu_tb.dut.alu0.acc[15:0]
+cpu_tb.dut.alu0.out_val[15:0]
+[pattern_trace] 1
+[pattern_trace] 0
