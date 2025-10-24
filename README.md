@@ -1,3 +1,5 @@
+-- This repository is moved to https://github.com/bi-tud-sds/tmvp_vliw_simd --
+
 # Crypto Accelerator
 The CPU contains a 4-stage pipeline.
 There is no hazard or data dependency checking.
